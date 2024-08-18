@@ -10,6 +10,8 @@ def load_certification_file(cert_file_path):
 
 #// Calculate Sha-256 hash of given file.
 def get_file_hash(file_path)
- hash_algo = hashlib.sha256()
-with 
+hash_algo = hashlib.sha256()
+with open(file_path, 'rb') as file:
+  hash_algo.update(chunk)
+return hash_algo.hexdigest()
   
