@@ -35,7 +35,7 @@
      python simpleav.py
 
 ## **🖼️ Screenshots**
-(Add screenshots or terminal outputs here if applicable.)
+(In progress)
 
 ## **🤝 Contributing**
 Feel free to fork the repository and submit pull requests. For major changes or feature requests, please open an issue first to discuss your ideas.
