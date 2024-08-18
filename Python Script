@@ -1,0 +1,15 @@
+#// Importing libraries 
+import hashlib 
+import os
+
+#// load the bad hashes from certification file
+def load_certification_file(cert_file_path):
+  with open(cert_file_path, 'r') as file:
+    bad_hashes = set(line.strip() for line in file)
+  return bad_hashes
+
+#// Calculate Sha-256 hash of given file.
+def get_file_hash(file_path)
+ hash_algo = hashlib.sha256()
+with 
+  
