@@ -24,7 +24,7 @@
     bash AutoCertDownload.sh  
   <br>
   
- - **Windows Alternative**: <br> You can run the bat file to automatically get the cert files. <br>
+ - **Windows 🔮**: <br> You can run the bat file to automatically get the cert files. <br>
      [SimpleAV/AutoCertDownload.bat](AutoCertDownload.bat)
     <br>
  <br>
