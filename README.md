@@ -25,18 +25,17 @@
 
 3. **Update Configuration**: 📝 Edit the config.ini file to set your scan preferences and paths.
 
- 4. **Run the Scanner**: ⚙️ Execute the scan with:
     ```bash
-    python simpleav.py
+    [Settings]
+    scan_path = C:\  # By default, can be changed
+    cert_files = cert1-5.txt  # No need to change unless you know what you're doing
+
+ 4. **Run the Scanner**: ⚙️ Execute the scan with:
+     ```bash
+     python simpleav.py
 
 ## **🖼️ Screenshots**
 (Add screenshots or terminal outputs here if applicable.)
-
-## **📄 Example**
-To scan a file using the default settings, run:
-
-`bash
-python simpleav.py
 
 ## **🤝 Contributing**
 Feel free to fork the repository and submit pull requests. For major changes or feature requests, please open an issue first to discuss your ideas.
