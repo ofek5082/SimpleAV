@@ -11,30 +11,40 @@
 
 ## Installation
 
-1. **Clone the Repository**: 🧑‍💻
+1. **Clone the Repository**: 🧑‍💻 <br>
  Open your terminal or command prompt and run:
    ```bash
    git clone https://github.com/ofek5082/SimpleAV.git
-
+ <br>
    
- 2. **Download Certification Files**: 🚀
+ 2. **Download Certification Files**: 🚀 <br>
     Navigate to the project directory and run:
     ```bash
     cd SimpleAV
-    bash download_certs.sh
+    bash AutoCertDownload.sh  
+  <br>
+  
+ - **Windows Alternative**: <br> You can run the bat file to automatically get the cert files. <br>
+     [SimpleAV/AutoCertDownload.bat](AutoCertDownload.bat)
+    <br>
+ <br>
 
-3. **Update Configuration**: 📝 Edit the config.ini file to set your scan preferences and paths.
+3. **Update Configuration**: 📝 <br>
+     Edit the config.ini file to set your scan preferences and paths.
 
     ```bash
     [Settings]
     scan_path = C:\  # By default, can be changed
-    cert_files = cert1-5.txt  # No need to change unless you know what you're doing
-
- 4. **Run the Scanner**: ⚙️ Execute the scan with:
+    cert_files = cert1-5.txt  # No need to change . 
+ <br>
+ 
+ 4. **Run the Scanner**: ⚙️ <br>
+     Execute the scan with:
      ```bash
      python simpleav.py
-
-## **🖼️ Screenshots**
+ <br>
+ 
+ ## **🖼️ Screenshots**
 (In progress)
 
 ## **🤝 Contributing**
